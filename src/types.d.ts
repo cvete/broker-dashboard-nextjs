@@ -1,0 +1,1 @@
+// This file contains type declarations for your data\n\nexport interface Broker {\n  broker: string;\n  rent: number;\n  sale: number;\n  total: number;\n  category: \"proptech\" | \"traditional\";\n}\n\nexport interface BrokerData {\n  updatedOn: string;\n  brokers: Broker[];\n}
